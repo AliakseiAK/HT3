@@ -1,0 +1,6 @@
+open "http://www.google.com" "3"
+checkPageTitle "Google Search Page"
+checkPageContains "The best search engine"
+open "http://svyatoslav.biz" "15"
+checkPageTitle "Google"
+checkPageContains "Тренинги"
